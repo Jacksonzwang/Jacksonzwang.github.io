@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('../footage/bg/bg-maintance.jpg') 50% 50%;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font: 300 24px "Roboto Regular";
+    margin: 0;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: -0.5em;
+}
+
+p {
+    color: #000000;
+}
+
+.message-1 {
+    font-weight: regular;
+    margin: 0.5em;
+}
+
+@font-face {
+    font-family: "Roboto regular";
+    src: url('../fonts/Roboto.ttf')
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url('../fonts/Roboto-Bold.ttf')
+}
