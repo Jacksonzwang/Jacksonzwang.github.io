@@ -9,6 +9,10 @@ body {
     text-align: center;
     font: 300 24px "Roboto Regular";
     margin: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 table {
@@ -24,12 +28,12 @@ h1 {
     font-size: 45px;
     font-weight: bold;
     font-family: "Roboto Bold";
-    color: #000000;
+    color: #ffffff;
     margin-top: -0.5em;
 }
 
 p {
-    color: #000000;
+    color: #ffffff;
 }
 
 .message {
@@ -45,4 +49,15 @@ p {
 @font-face {
     font-family: "Roboto Bold";
     src: url('../fonts/Roboto-Bold.ttf')
+}
+
+footer {
+    margin-top: -5em;
+    font-size: small;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #ffffff;
 }
