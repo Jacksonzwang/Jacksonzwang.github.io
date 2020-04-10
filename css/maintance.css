@@ -28,12 +28,14 @@ h1 {
     font-size: 45px;
     font-weight: bold;
     font-family: "Roboto Bold";
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #ec9494;
     margin-top: -0.5em;
 }
 
 p {
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #ec9494;
 }
 
 .message {
@@ -43,12 +45,12 @@ p {
 
 @font-face {
     font-family: "Roboto Regular";
-    src: url('../fonts/Roboto.ttf')
+    src: url('../fonts/Roboto.woff2') format('woff2')
 }
 
 @font-face {
     font-family: "Roboto Bold";
-    src: url('../fonts/Roboto-Bold.ttf')
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2')
 }
 
 footer {
