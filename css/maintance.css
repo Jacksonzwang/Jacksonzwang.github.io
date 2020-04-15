@@ -53,7 +53,8 @@ p {
     src: url('../fonts/Roboto-Bold.woff2') format('woff2')
 }
 
-footer {
+
+/*footer {
     margin-top: -5em;
     font-size: small;
     color: #ffffff;
@@ -62,4 +63,4 @@ footer {
 footer a {
     text-decoration: underline;
     color: #ffffff;
-}
+}*/
