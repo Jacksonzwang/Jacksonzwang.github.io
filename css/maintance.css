@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('../footage/bg/bg-maintance.jpg') 50% 50%;
+    background: url("../footage/bg/bg-maintance.jpg") 50% 50%;
     background-size: cover;
     height: 100%;
     text-align: center;
@@ -45,14 +45,13 @@ p {
 
 @font-face {
     font-family: "Roboto Regular";
-    src: url('../fonts/Roboto.woff2') format('woff2')
+    src: url("../fonts/Roboto.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Roboto Bold";
-    src: url('../fonts/Roboto-Bold.woff2') format('woff2')
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2");
 }
-
 
 /*footer {
     margin-top: -5em;
