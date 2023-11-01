@@ -28,14 +28,14 @@ h1 {
     font-size: 45px;
     font-weight: bold;
     font-family: "Roboto Bold";
-    /*color: #ffffff;*/
-    color: #0078ff;
+    color: #ffffff;
+    /*color: #0078ff;*/
     margin-top: -0.5em;
 }
 
 p {
-    /*color: #ffffff;*/
-    color: #0078ff;
+    color: #ffffff;
+    /*color: #0078ff;*/
 }
 
 .message {
